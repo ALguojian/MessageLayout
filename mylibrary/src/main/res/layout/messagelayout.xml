@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativeLayout"
+    android:layout_width="match_parent"
+    android:background="#ffffff"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_centerVertical="true"
+        android:id="@+id/leftText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="14dp"
+        tools:text="性别" />
+
+    <ImageView
+        android:layout_centerVertical="true"
+        android:id="@+id/rightIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:paddingRight="10dp"
+        android:src="@drawable/common_arrowright_icon" />
+
+    <TextView
+        android:layout_centerVertical="true"
+        android:id="@+id/centerText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_toLeftOf="@id/rightIcon"
+        android:paddingRight="30dp"
+        tools:text="小哥哥" />
+
+    <ImageView
+        android:layout_centerVertical="true"
+        android:id="@+id/leftIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@id/centerText"
+        android:paddingRight="4dp"
+        android:src="@drawable/common_arrowright_icon" />
+
+</RelativeLayout>

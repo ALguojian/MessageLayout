@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <declare-styleable name="MessageLayout">
+
+        <!--左侧字体大小-->
+        <attr name="leftTextSize" format="dimension" />
+
+        <attr name="leftTextString" format="string"/>
+        <attr name="centerTextString" format="string"/>
+
+        <!--左侧字体颜色-->
+        <attr name="leftTextColor" format="color" />
+
+        <!--左侧字体距离左边的距离-->
+        <attr name="leftTextMarginLeft" format="dimension" />
+
+        <!--中间字体距离右边距离-->
+        <attr name="centerTextMarginRight" format="dimension" />
+
+        <!--中间字体大小-->
+        <attr name="centerTextSize" format="integer" />
+
+        <!--中间字体颜色-->
+        <attr name="centerTextColor" format="color" />
+
+        <!--右侧按钮你资源ID-->
+        <attr name="rightIcon" format="reference" />
+
+        <!--右侧按钮距离右侧距离-->
+        <attr name="rightIconMarginRight" format="dimension" />
+
+        <!--是否显示右侧按钮-->
+        <attr name="rightIconShow" format="boolean" />
+
+        <!--左侧icon资源ID-->
+        <attr name="leftIcon" format="reference" />
+
+    </declare-styleable>
+
+</resources>
